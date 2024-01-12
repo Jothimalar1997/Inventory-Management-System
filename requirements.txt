@@ -1,3 +1,2 @@
 pandas
-warnings
--e .
+streamlit
