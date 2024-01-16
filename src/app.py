@@ -17,8 +17,8 @@ def main():
         price=st.text_input("Enter the price of the product")
         quantity=st.text_input("Enter the quantity of the product")
         if st.button("Insert"):
-            utils.add_new_product(name, category, price, quantity)
-            st.success("The product detail is added successfully!")
+            res=utils.add_new_product(name, category, price, quantity)
+            st.success(res)
 
 
     elif option=="Display":
@@ -26,6 +26,7 @@ def main():
         st.subheader("Reads Inventory Table")
         if st.button("Display"):
             st.dataframe(utils.display_inventory_details())
+            st.success("The inventory table displayed successfully")
             
 
     elif option=="Update":
@@ -38,8 +39,8 @@ def main():
             value=st.text_input(f"Enter the new value for {choice} to update")
             
             if st.button("Update"):
-                utils.update_product(product,choice,value)
-                st.success("Record updated successfully!")
+                res=utils.update_product(product,choice,value)
+                st.success(res)
 
 
     elif option=="Sale":
@@ -71,7 +72,7 @@ def main():
         st.subheader("Export products details")
         data=utils.import_data()
         if st.button("Export"):
-            utils.export_data(data)
+            res=utils.export_data(data)
             st.success(f"Data exported successfully to path\n\n{utils.CSV_FILE_PATH}!")
 
 

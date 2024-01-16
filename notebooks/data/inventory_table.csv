@@ -1,9 +1,9 @@
 Product_Name,Category,Price,Quantity
-dettol,Antiseptic,180,40
+dettol,Antiseptic,180,30
 lizol,Antiseptic,100,15
 coffee powder,Household,80,50
 tea powder,Household,60,60
-milk,Household,25,20
+milk,Household,25,25
 sugar,Household,45,50
 salt,Household,10,50
 diaper,Baby Items,1000,20
@@ -15,6 +15,3 @@ Ariel,Detergents,250,30
 Surf excel,Detergents,200,30
 Rin,Detergents,150,30
 eyeliner,cosmetics,180,120
-eyeliner,cosmetics,180,120
-eyeliner,cosmetics,180,120
-test_1,test,1,10

@@ -1,21 +1,23 @@
 Product_Name,Category,Price,Quantity
-dettol,Antiseptic,180,30
-lizol,Antiseptic,100,15
-coffee powder,Household,80,50
-tea powder,Household,60,60
-milk,Household,25,20
-sugar,Household,45,50
-salt,Household,10,50
-diaper,Baby Items,1000,20
-baby lotion,Baby Items,300,30
-baby rash cream,Baby Items,200,10
-baby milk powder,Baby Items,800,20
-Savlon,Antiseptic,80,40
-Ariel,Detergents,250,30
-Surf excel,Detergents,200,30
-Rin,Detergents,150,30
-eyeliner,cosmetics,180,120
-eyeliner,cosmetics,180,120
-eyeliner,cosmetics,180,120
-test_1,test,1,10
-mobile charger,electronics,1800,40
+dettol,Antiseptic,180,26.0
+lizol,Antiseptic,100,50.0
+coffee powder,Household,80,50.0
+tea powder,Household,60,60.0
+milk,Household,25,20.0
+sugar,Household,45,40.0
+salt,Household,10,50.0
+diaper,Baby Items,1000,10.0
+baby lotion,Baby Items,300,30.0
+baby rash cream,Baby Items,200,10.0
+baby milk powder,Baby Items,800,20.0
+Savlon,Antiseptic,80,40.0
+Ariel,Detergents,250,30.0
+Surf excel,Detergents,200,30.0
+Rin,Detergents,150,30.0
+eyeliner,cosmetics,180,120.0
+test_1,test,1,10.0
+mobile charger,electronics,1800,40.0
+hair clips,cosmetics,50,200.0
+Kajol,Cosmetics,180,178.0
+Vicks,Medical,15,30.0
+Mascara,Cosmetics,50,20.0
